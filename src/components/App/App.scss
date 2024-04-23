@@ -1,0 +1,44 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .options-wrapper {
+    width: calc(100% - 2 * 5rem);
+    display: flex;
+    align-items: space-between;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem;
+    border: 0.2rem solid #b0c4de;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+
+    .options-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .options-button:hover {
+      background-color: #0056b3;
+      opacity: 0.2;
+    }
+  }
+
+  .content-wrapper {
+    width: calc(100% - 2 * 5rem);
+    margin-top: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Alegreya Sans Black', sans-serif;
+    color: #224c98;
+  }
+}
